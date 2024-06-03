@@ -12,6 +12,8 @@
 
 ![desktop4](https://github.com/Venera00/TechWave/assets/88454006/baeafdaa-dd36-4b29-8672-82a71c1aab7b)
 
+#### Responsive
+
 ![image](https://github.com/Venera00/TechWave/assets/88454006/f0d3b9c6-071c-4216-9598-f04c3e46e0d4)
 ![ipad2](https://github.com/Venera00/TechWave/assets/88454006/2a94ac89-a30c-4c28-9581-94080df204da)
 ![ipad3](https://github.com/Venera00/TechWave/assets/88454006/e124e969-f028-4b3f-b288-4d6f2935ecb5)
