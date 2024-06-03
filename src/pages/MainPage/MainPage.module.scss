@@ -59,3 +59,22 @@ h1 {
 .order_btn:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 740px) {
+  .main_content {
+    flex-direction: column;
+  }
+
+  .main_content img {
+    width: 500px;
+  }
+
+  .about_section {
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .card {
+    width: 300px;
+  }
+}

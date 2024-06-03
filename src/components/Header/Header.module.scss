@@ -24,3 +24,18 @@
   font-weight: 400;
   font-size: 18px;
 }
+
+.close_icon,
+.burger_icon {
+  display: none;
+}
+
+@media (max-width: 840px) {
+  .navigation {
+    display: none;
+  }
+
+  .burger_icon {
+    display: block;
+  }
+}

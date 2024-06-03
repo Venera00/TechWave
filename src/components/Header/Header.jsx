@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
+import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./Header.module.scss";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className={styles.header}>
       <a href="/">
@@ -22,6 +29,9 @@ const Header = () => {
         <Link to="order" smooth={true} duration={500}>
           <li className={styles.nav_title}>Order</li>
         </Link>
+
+        <FaTimes className={styles.close_icon} />
+        <FaBars className={styles.burger_icon} />
       </ul>
     </div>
   );
