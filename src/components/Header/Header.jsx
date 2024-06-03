@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import styles from "./Header.module.scss";
 
 const Header = () => {
@@ -9,18 +10,18 @@ const Header = () => {
       </a>
 
       <ul className={styles.navigation}>
-        <a href="#">
+        <Link to="about" smooth={true} duration={500}>
           <li className={styles.nav_title}>About</li>
-        </a>
+        </Link>
         <a href="#">
           <li className={styles.nav_title}>News</li>
         </a>
         <a href="#">
           <li className={styles.nav_title}>Contacts</li>
         </a>
-        <a href="#">
+        <Link to="order" smooth={true} duration={500}>
           <li className={styles.nav_title}>Order</li>
-        </a>
+        </Link>
       </ul>
     </div>
   );

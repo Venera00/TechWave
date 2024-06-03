@@ -9,6 +9,7 @@ import rocketIcon from "../../assets/rocketIcon.png";
 import timeIcon from "../../assets/timeIcon.png";
 import peopleIcon from "../../assets/peopleIcon.png";
 import styles from "./MainPage.module.scss";
+import { Element } from "react-scroll";
 
 const MainPage = () => {
   return (
@@ -22,56 +23,70 @@ const MainPage = () => {
 
       <button className={styles.order_btn}>Order now</button>
 
-      <div className={styles.about_section}>
-        <div className={styles.card}>
-          <img src={chargeIcon} alt="Charge Icon" className={styles.card_img} />
-          <p className={styles.card_title}>Lorem, ipsum dolor.</p>
-          <p className={styles.card_subtitle}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            commodi.
-          </p>
+      <Element name="about">
+        <div className={styles.about_section}>
+          <div className={styles.card}>
+            <img
+              src={chargeIcon}
+              alt="Charge Icon"
+              className={styles.card_img}
+            />
+            <p className={styles.card_title}>Lorem, ipsum dolor.</p>
+            <p className={styles.card_subtitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              commodi.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <img src={globeIcon} alt="Globe Icon" className={styles.card_img} />
+            <p className={styles.card_title}>Lorem, ipsum dolor.</p>
+            <p className={styles.card_subtitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              commodi.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <img src={phoneIcon} alt="Phone Icon" className={styles.card_img} />
+            <p className={styles.card_title}>Lorem, ipsum dolor.</p>
+            <p className={styles.card_subtitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              commodi.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <img
+              src={rocketIcon}
+              alt="Rocket Icon"
+              className={styles.card_img}
+            />
+            <p className={styles.card_title}>Lorem, ipsum dolor.</p>
+            <p className={styles.card_subtitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              commodi.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <img
+              src={peopleIcon}
+              alt="People Icon"
+              className={styles.card_img}
+            />
+            <p className={styles.card_title}>Lorem, ipsum dolor.</p>
+            <p className={styles.card_subtitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              commodi.
+            </p>
+          </div>
+          <div className={styles.card}>
+            <img src={timeIcon} alt="Time Icon" className={styles.card_img} />
+            <p className={styles.card_title}>Lorem, ipsum dolor.</p>
+            <p className={styles.card_subtitle}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              commodi.
+            </p>
+          </div>
         </div>
-        <div className={styles.card}>
-          <img src={globeIcon} alt="Globe Icon" className={styles.card_img} />
-          <p className={styles.card_title}>Lorem, ipsum dolor.</p>
-          <p className={styles.card_subtitle}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            commodi.
-          </p>
-        </div>
-        <div className={styles.card}>
-          <img src={phoneIcon} alt="Phone Icon" className={styles.card_img} />
-          <p className={styles.card_title}>Lorem, ipsum dolor.</p>
-          <p className={styles.card_subtitle}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            commodi.
-          </p>
-        </div>
-        <div className={styles.card}>
-          <img src={rocketIcon} alt="Rocket Icon" className={styles.card_img} />
-          <p className={styles.card_title}>Lorem, ipsum dolor.</p>
-          <p className={styles.card_subtitle}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            commodi.
-          </p>
-        </div>
-        <div className={styles.card}>
-          <img src={peopleIcon} alt="People Icon" className={styles.card_img} />
-          <p className={styles.card_title}>Lorem, ipsum dolor.</p>
-          <p className={styles.card_subtitle}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            commodi.
-          </p>
-        </div>
-        <div className={styles.card}>
-          <img src={timeIcon} alt="Time Icon" className={styles.card_img} />
-          <p className={styles.card_title}>Lorem, ipsum dolor.</p>
-          <p className={styles.card_subtitle}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            commodi.
-          </p>
-        </div>
-      </div>
+      </Element>
 
       <OrderForm />
     </div>
