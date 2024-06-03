@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 200px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.navigation {
+  display: flex;
+  gap: 50px;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+  transition: all 3s ease-in-out;
+}
+.nav_title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #26355d;
+}
