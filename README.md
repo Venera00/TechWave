@@ -15,7 +15,7 @@
 
 
 
-![ipad1](https://github.com/Venera00/TechWave/assets/88454006/68416f4d-5092-432f-95d7-47f84c05d7c3)
+![image](https://github.com/Venera00/TechWave/assets/88454006/f0d3b9c6-071c-4216-9598-f04c3e46e0d4)
 ![ipad2](https://github.com/Venera00/TechWave/assets/88454006/2a94ac89-a30c-4c28-9581-94080df204da)
 ![ipad3](https://github.com/Venera00/TechWave/assets/88454006/e124e969-f028-4b3f-b288-4d6f2935ecb5)
 ![ipad4](https://github.com/Venera00/TechWave/assets/88454006/0f602e01-6e3d-41e1-8309-48e01c5f7328)
