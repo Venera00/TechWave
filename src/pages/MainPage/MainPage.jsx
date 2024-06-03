@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import OrderForm from "../../components/OrderForm/OrderForm";
 import mainImg from "../../assets/mainImg.jpg";
 import chargeIcon from "../../assets/chargeIcon.png";
 import globeIcon from "../../assets/globeIcon.png";
@@ -18,6 +19,8 @@ const MainPage = () => {
         <img src={mainImg} alt="AR image" />
         <h1>TechWave - an immersive augmented reality experience</h1>
       </div>
+
+      <button className={styles.order_btn}>Order now</button>
 
       <div className={styles.about_section}>
         <div className={styles.card}>
@@ -70,7 +73,7 @@ const MainPage = () => {
         </div>
       </div>
 
-      <button className={styles.order_btn}>Order</button>
+      <OrderForm />
     </div>
   );
 };
