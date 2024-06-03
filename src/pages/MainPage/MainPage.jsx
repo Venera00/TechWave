@@ -10,6 +10,7 @@ import timeIcon from "../../assets/timeIcon.png";
 import peopleIcon from "../../assets/peopleIcon.png";
 import styles from "./MainPage.module.scss";
 import { Element } from "react-scroll";
+import News from "../../components/News/News";
 
 const MainPage = () => {
   return (
@@ -89,6 +90,7 @@ const MainPage = () => {
       </Element>
 
       <OrderForm />
+      <News />
     </div>
   );
 };

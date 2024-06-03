@@ -1,0 +1,16 @@
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.news_img {
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.news_title {
+  width: 500px;
+}
