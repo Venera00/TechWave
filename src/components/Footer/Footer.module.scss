@@ -1,0 +1,19 @@
+.footer {
+  height: 200px;
+  background-color: #eeeeee;
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer_section a {
+  color: #26355d;
+}

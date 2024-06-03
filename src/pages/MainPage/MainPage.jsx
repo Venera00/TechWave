@@ -11,6 +11,7 @@ import peopleIcon from "../../assets/peopleIcon.png";
 import styles from "./MainPage.module.scss";
 import { Element } from "react-scroll";
 import News from "../../components/News/News";
+import Footer from "../../components/Footer/Footer";
 
 const MainPage = () => {
   return (
@@ -91,6 +92,7 @@ const MainPage = () => {
 
       <OrderForm />
       <News />
+      <Footer />
     </div>
   );
 };

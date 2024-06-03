@@ -16,9 +16,9 @@ const Header = () => {
         <Link to="news" smooth={true} duration={500}>
           <li className={styles.nav_title}>News</li>
         </Link>
-        <a href="#">
+        <Link to="contacts" smooth={true} duration={500}>
           <li className={styles.nav_title}>Contacts</li>
-        </a>
+        </Link>
         <Link to="order" smooth={true} duration={500}>
           <li className={styles.nav_title}>Order</li>
         </Link>
